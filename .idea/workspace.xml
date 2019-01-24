@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b7514b-f01b-4369-b5b4-b6d48c7271d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knownCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/knownCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knownCard.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/knownCard.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/knownCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="357" column="35" lean-forward="true" selection-start-line="357" selection-start-column="35" selection-end-line="357" selection-end-column="35" />
+            <state relative-caret-position="198">
+              <caret line="399" column="42" lean-forward="true" selection-start-line="399" selection-start-column="42" selection-end-line="399" selection-end-column="42" />
               <folding>
                 <element signature="e#51#1201#0" />
                 <element signature="n#!!block;n#getOdd#0;n#!!block;n#knownCard#0" />
@@ -212,12 +212,12 @@
       <workItem from="1546856318940" duration="22807000" />
       <workItem from="1547370105007" duration="704000" />
       <workItem from="1547427355978" duration="3685000" />
-      <workItem from="1548300607571" duration="11069000" />
+      <workItem from="1548300607571" duration="12496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122824000" />
+    <option name="totallyTimeSpent" value="124251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="6" />
@@ -331,8 +331,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/knownCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="357" column="35" lean-forward="true" selection-start-line="357" selection-start-column="35" selection-end-line="357" selection-end-column="35" />
+        <state relative-caret-position="198">
+          <caret line="399" column="42" lean-forward="true" selection-start-line="399" selection-start-column="42" selection-end-line="399" selection-end-column="42" />
           <folding>
             <element signature="e#51#1201#0" />
             <element signature="n#!!block;n#getOdd#0;n#!!block;n#knownCard#0" />

@@ -358,33 +358,58 @@ function knownCard(times){
     _.forEach(card6B,function(v,k){
 
         let total=card6B[k].banker+card6B[k].tie+card6B[k].player
-
-        position6P[k]=((card6B[k].player*2+card6B[k].tie)/total-1)*(0.3178) +(0*0.3786)+(-0.5399*0.1857)+(0.5388*0.1177)
-
+        position6P[k]={}
+        position6P[k].player=((card6B[k].player*2+card6B[k].tie)/total-1)*(0.3178) +(0*0.3786)+(-0.5399*0.1857)+(0.5388*0.1177)
+        position6P[k].tie=(card6B[k].tie*9/total-1)*(0.3178)+(-0.1443*0.3786)+(-0.1443*0.1857)+(-0.3093*0.1177)
 
     })
-
-    position6P['0']=(position6P['10']+position6P['11']+position6P['12']+position6P['13'])/4
+    position6P['0']={}
+    position6P['0'].player=(position6P['10'].player+position6P['11'].player+position6P['12'].player+position6P['13'].player)/4
+    position6P['0'].tie=(position6P['10'].tie+position6P['11'].tie+position6P['12'].tie+position6P['13'].tie)/4
     delete position6P['10']
     delete position6P['11']
     delete position6P['12']
     delete position6P['13']
 
+
+
     const position6B={}
     _.forEach(card6B,function(v,k){
 
         let total=card6B[k].banker+card6B[k].tie+card6B[k].player
-
-        position6B[k]=((card6B[k].banker*1.95+card6B[k].tie) /total-1)*(0.3178)+(-0.02254*0.3786)+(0.5037*0.1857)+(-0.5484*0.1177) //if 4 cards player's EV is 0
-
+        position6B[k]={}
+        position6B[k].banker=((card6B[k].banker*1.95+card6B[k].tie) /total-1)*(0.3178)+(-0.02254*0.3786)+(0.5037*0.1857)+(-0.5484*0.1177)
+        position6B[k].tie=(card6B[k].tie*9/total-1)*(0.3178)+(-0.1443*0.3786)+(-0.1443*0.1857)+(-0.3093*0.1177)
 
     })
-
-    position6B['0']=(position6B['10']+position6B['11']+position6B['12']+position6B['13'])/4
+    position6B['0']={}
+    position6B['0'].banker=(position6B['10'].banker+position6B['11'].banker+position6B['12'].banker+position6B['13'].banker)/4
+    position6B['0'].tie=(position6B['10'].tie+position6B['11'].tie+position6B['12'].tie+position6B['13'].tie)/4
     delete position6B['10']
     delete position6B['11']
     delete position6B['12']
     delete position6B['13']
+    const position6=mergeOdd(position6P,position6B)
+    {
+        const ws6=wb.addWorksheet('Position 6')
+        let columns=['card','Player EV','Banker EV','Tie EV']
+        ws6.cell(1,1)
+            .string('Position 6')
+
+
+        for(let i=0;i<columns.length;i++){
+            ws6.cell(2,i+1)//cell column can not be 0
+                .string(columns[i])
+        }
+        let row=3
+        _.forEach(position6,function(result,index){
+            ws6.cell(row,1).string(index)
+            ws6.cell(row,2).string(result.player.toFixed(7))
+            ws6.cell(row,3).string(result.banker.toFixed(7))
+            ws6.cell(row,4).string(result.tie.toFixed(7))
+            row++
+        })
+    }
 
     // console.log(position6B)
 
@@ -393,5 +418,5 @@ function knownCard(times){
 
 console.time('Baccarat')
 // console.log(GalaxyRegular(5000000))
-knownCard(50000,rolling=0.015)
+knownCard(2500000,rolling=0.015)
 console.timeEnd('Baccarat')
