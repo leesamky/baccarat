@@ -1,0 +1,20 @@
+{
+  "name": "baccarat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deck.js",
+  "dependencies": {
+    "ajv": "^6.6.2",
+    "async": "^2.6.1",
+    "excel4node": "^1.7.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
