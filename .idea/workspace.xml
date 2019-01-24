@@ -2,74 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b7514b-f01b-4369-b5b4-b6d48c7271d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/knownCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baccarat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaccaratFaceCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/BaccaratFaceCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculate.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/equal.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/equal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/defaults.def" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/defaults.def" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitLength.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitLength.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitProperties.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/anyOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/anyOf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/const.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/contains.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/contains.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/dependencies.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/dependencies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/enum.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/enum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/format.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/format.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/if.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/if.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/multipleOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/multipleOf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/not.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/not.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/oneOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/oneOf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/pattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/pattern.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/properties.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/propertyNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/propertyNames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/ref.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/ref.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/required.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/required.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/uniqueItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/uniqueItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ajv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ajv/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/memory-pager/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/memory-pager/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/memory-pager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/memory-pager/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/notFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/notFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/compile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/get.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyHooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyHooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/discriminator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/discriminator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/selectPopulatedFields.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/selectPopulatedFields.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/symbols.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/symbols.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/sharding.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/sharding.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFaceCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/testFaceCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knownCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/knownCard.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testFaceCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="-5182">
               <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="30" />
               <folding>
                 <element signature="e#277#2249#0" />
@@ -98,10 +32,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/knownCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="187" column="33" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="33" />
+            <state relative-caret-position="98">
+              <caret line="357" column="35" lean-forward="true" selection-start-line="357" selection-start-column="35" selection-end-line="357" selection-end-column="35" />
               <folding>
                 <element signature="e#51#1201#0" />
+                <element signature="n#!!block;n#getOdd#0;n#!!block;n#knownCard#0" />
+                <element signature="n#!!block;n#mergeOdd#0;n#!!block;n#knownCard#0" />
               </folding>
             </state>
           </provider>
@@ -276,19 +212,19 @@
       <workItem from="1546856318940" duration="22807000" />
       <workItem from="1547370105007" duration="704000" />
       <workItem from="1547427355978" duration="3685000" />
-      <workItem from="1548300607571" duration="1961000" />
+      <workItem from="1548300607571" duration="11069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113716000" />
+    <option name="totallyTimeSpent" value="122824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21282594" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16138126" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -384,7 +320,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testFaceCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="-5182">
           <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="30" />
           <folding>
             <element signature="e#277#2249#0" />
@@ -395,10 +331,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/knownCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="187" column="33" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="33" />
+        <state relative-caret-position="98">
+          <caret line="357" column="35" lean-forward="true" selection-start-line="357" selection-start-column="35" selection-end-line="357" selection-end-column="35" />
           <folding>
             <element signature="e#51#1201#0" />
+            <element signature="n#!!block;n#getOdd#0;n#!!block;n#knownCard#0" />
+            <element signature="n#!!block;n#mergeOdd#0;n#!!block;n#knownCard#0" />
           </folding>
         </state>
       </provider>
