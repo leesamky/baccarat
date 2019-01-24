@@ -1232,7 +1232,7 @@ function BaccaratTC(times,rolling=0){
 
 console.time('Baccarat')
 // console.log(GalaxyRegular(5000000))
-BaccaratTC(10000000,rolling=0.015)
+BaccaratTC(10000,rolling=0.015)
 console.timeEnd('Baccarat')
 
 // Dragon7(50000,0)
