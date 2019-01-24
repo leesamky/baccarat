@@ -17,7 +17,7 @@ function Baccarat(showCardsLeft=false,deck=8,cutCard=14){
     }
     return [result,burnCard]
 }
-function round(shoe,showCardsLeft,burnCard=false){
+function round(shoe,showCardsLeft=true,burnCard=false){
     let banker=[]
     let player=[]
     let bankerPoint=undefined
